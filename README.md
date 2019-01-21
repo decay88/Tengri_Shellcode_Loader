@@ -9,6 +9,7 @@ Tengri Shellcode Loader is a Cobalt Strike and x86 shellcode Loader builder for 
   - Generate a loader from either DNS or HTTPS shellcode
   - Generate a loader that checks HTTPS connectivity and based on reponse either injects HTTPS or DNS shellcode into memory
   - Add Registry Entry to run loader on Start Up
+  - AV Bypass - i've currently only test it with Symantec and one or two others, this needs further validation.
 
 ## Future Features:
 
