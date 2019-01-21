@@ -32,7 +32,7 @@ The folder structure MUST be maintained for it to work and generated loaders are
 
 The GUI looks like this:
 
-(repo/blob/master/images/loader_gui_prview.PNG)
+[a relative link](repo/blob/master/images/loader_gui_prview.PNG)
 
 
 ## License 
