@@ -27,7 +27,7 @@ You can download .NET framework v4 from [here](https://www.microsoft.com/en-gb/d
 
 ### GUI
 
-It is a GUI application and fairly self explanatory.
+It is a GUI application and fairly self explanatory. To run is just run the Tengri_SB.exe in the folder as the rest of the repo.
 
 The folder structure MUST be maintained for it to work and generated loaders are output into the FinishedLoader folder.
 
