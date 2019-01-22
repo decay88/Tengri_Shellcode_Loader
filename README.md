@@ -31,6 +31,8 @@ It is a GUI application and fairly self explanatory. To run is just run the Teng
 
 The folder structure MUST be maintained for it to work and generated loaders are output into the FinishedLoader folder.
 
+You will need to feed it either Metasploit and Cobalt Strike raw (.bin) x86 shellcode.
+
 The GUI looks like this:
 
 ![Alt text](/images/loader_gui_prview.PNG)
