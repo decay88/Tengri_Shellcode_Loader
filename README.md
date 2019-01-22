@@ -17,6 +17,12 @@ Tengri Shellcode Loader is a Cobalt Strike and x86 shellcode Loader builder for 
   - Generate an InstallUtil Function to evade application whitelisting
   - Add Sandbox detection techniques
   - Port to earlier versions of the .NET framework
+  
+## USE of HTTPS and DNS loader
+
+For this the current way that i have found it to work, is making a text file with some text in side (can be anything), hosting it on the Teamserver (Attacks -> Web Drive-By -> Host File) and to then enter https://redirectordomain/textfile into the connectivity check for the beacon when generating the loader.
+
+This will ensure that it reaches out to HTTPS teamserver if it is reachable
 
 
 ## Requirements:
