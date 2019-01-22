@@ -105,23 +105,23 @@ namespace Loader
             var location = new Uri(Assembly.GetEntryAssembly().GetName().CodeBase);
             return new FileInfo(location.AbsolutePath).Directory;
         }
-        
-        public static int CheckHTTPSAccess(string url)
+
+        public int CheckHTTPSAccess(string url)
         {
             string redirector = url;
-            try
+
+            WebClient client = new WebClient();
+            client.Proxy.Credentials = CredentialCache.DefaultCredentials;
+            string downloadString = client.DownloadString(redirector);
+
+            if (downloadString != null)
             {
-                using (var client = new WebClient())
-                using (client.OpenRead(redirector))
-                {
-                    return 1;
-                }
+                return 1;
             }
-            catch
+            else
             {
                 return 2;
             }
-
         }
     }
     }
