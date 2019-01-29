@@ -13,7 +13,7 @@ Tengri Shellcode Loader is a Cobalt Strike and x86 shellcode Loader builder for 
 
 ## Future Features:
 
-  - Generate a loader that checks both HTTPS and DNS connectivity and if both fails runs EvilPostman SMTP agent
+  - Generate a loader that checks both HTTPS and DNS connectivity and if both fails runs an SMTP agent
   - Generate an InstallUtil Function to evade application whitelisting
   - Add Sandbox detection techniques
   - Port to earlier versions of the .NET framework
@@ -43,7 +43,3 @@ The GUI looks like this:
 
 ![Alt text](/images/loader_gui_prview.PNG)
 
-
-## License 
-
-This was developed by me on partly my own time and partly on KPMG's and while it does not contain any KPMG code currently, best not to share it with anyone outside the team. :)
